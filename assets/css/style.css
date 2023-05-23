@@ -1,0 +1,159 @@
+body {
+   background: #d4cec7 !important;
+    background-size: 20px 20px !important;
+    background-image:
+    linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px) !important;
+}
+
+.titulo {
+    border-bottom: 1px solid black;
+    background-color: #d4cec7;
+    padding: 2px 5px;
+}
+
+.titulo-h1 {
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.titulo-h5 {
+    font-weight: 200;
+    font-weight: 100 !important;
+    text-transform: uppercase;
+    padding-top: 2%;
+}
+
+/* ROW/COLUMNAS */
+.row {
+    margin-right: 1.5em !important;
+    margin-left: 1.5em !important;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#contenido {
+    position: relative;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+/* FORMULARIOS */
+.valorTabla {
+    font-weight: 100;
+}
+
+#valoresGastos {
+    font-weight: 100 !important; 
+}
+
+#presupuestoForm {
+    border: solid 1px #198754;
+    box-shadow: 4px 4px #198754;
+    background-color: #eae4de;
+    margin-left: 1em;
+}
+
+#gastoForm {
+    border: solid 1px #dc3545;
+    box-shadow: 4px 4px #dc3545;
+    background-color: #eae4de;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+.form-control {
+    background-color: transparent !important;
+    border: none !important;
+    opacity: 1 !important;
+    border-radius: 0 !important;
+    font-weight: 100 !important;
+}
+
+.presupuestoInput{
+    border-bottom: 1px solid #198754 !important;
+}
+
+.presupuestoInput:focus {
+    color: #198754 !important;
+    background-color: transparent !important;
+    border-color: inherit !important;
+    box-shadow: none !important;
+}
+
+.gastosInput {
+    border-bottom: 1px solid #dc3545 !important;
+}
+
+.gastosInput:focus {
+    color: #dc3545 !important;
+    background-color: transparent !important;
+    border-color: inherit !important;
+    box-shadow: none !important;
+}
+
+::placeholder {
+    color: black !important;
+    font-weight: 100 !important;
+    text-transform: lowercase !important;
+    font-style: italic;
+}
+
+.btn {
+    font-weight: 100 !important;
+    text-transform: uppercase;
+    padding: 2px 5px !important;
+}
+
+/* TABLAS */
+#tablaPresupuesto, #tablaGastos {
+    background-color: #eae4de;
+    border: solid 1px black;
+    box-shadow: 4px 4px black;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+table {
+    margin-bottom: 2em !important;
+    margin-right: 2em !important;
+}
+
+table > :not(caption) > * > * {
+    padding: 1rem 1rem !important;
+}
+
+.table > :not(:first-child) {
+    border-top: 1px solid black !important;
+}
+
+th {
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.table {
+    vertical-align: middle !important;
+}
+
+.botonGasto {
+    border-radius: 50%;
+    line-height: 1 !important;
+    background-color: black !important;
+}
+
+.fa-solid, .fas {
+    color:#eae4de;
+}
+
+.textoTabla {
+    margin-bottom: 0 !important;
+}
